@@ -46,11 +46,11 @@ let people= [
 
 //let solution= []
 
-people.forEach(checkAge(people.name, people.age))
+people.forEach(function(people){
 console.log(people.name, people.age);
 
 
-
+});
 
 
 /*
